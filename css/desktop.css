@@ -4,7 +4,9 @@
   /* 1366x768	16:9*/
   margin: auto;
 }
-.burgerMenu,
+.burgerMenu {
+  display: none;
+}
 .mobH1 {
   display: none;
 }
@@ -15,7 +17,6 @@ header,
   padding: 0 5px;
   margin: auto;
 }
-<<<<<<< HEAD
 header nav ul li h1 {
   display: block;
   padding: 0;
@@ -28,8 +29,6 @@ header nav ul li h1 {
   background-repeat: no-repeat;
   height: 200px;
 }
-=======
->>>>>>> 809a4a686c6aa229bcb30a597b7997a5dc6e56fa
 .mainNav {
   padding: 8px 0;
   height: auto;
@@ -43,8 +42,6 @@ header nav ul li h1 {
   border: none;
   padding: 0;
 }
-<<<<<<< HEAD
-=======
 header nav ul li h1 {
   display: block;
   padding: 0;
@@ -57,7 +54,6 @@ header nav ul li h1 {
   background-repeat: no-repeat;
   height: 200px;
 }
->>>>>>> 809a4a686c6aa229bcb30a597b7997a5dc6e56fa
 .banner h2 {
   top: 20px;
   left: 120px;
@@ -66,22 +62,13 @@ header nav ul li h1 {
 .mainContent {
   display: flex;
 }
-<<<<<<< HEAD
-=======
-main {
-  flex-basis: 70%;
-}
->>>>>>> 809a4a686c6aa229bcb30a597b7997a5dc6e56fa
 .sideBar {
   background-color: #ddceaa;
   flex-basis: 30%;
 }
-<<<<<<< HEAD
 main {
   flex-basis: 70%;
 }
-=======
->>>>>>> 809a4a686c6aa229bcb30a597b7997a5dc6e56fa
 .newsItem {
   flex-basis: 33%;
 }
@@ -92,10 +79,7 @@ main {
 .straplineImg {
   padding: 0 5px;
   flex-basis: 50%;
-<<<<<<< HEAD
-=======
 }
 .straplineImg > img {
   width: 100%;
->>>>>>> 809a4a686c6aa229bcb30a597b7997a5dc6e56fa
 }
