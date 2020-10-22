@@ -10,7 +10,10 @@
 .mobH1 {
   display: none;
 }
-header,
+header {
+  justify-content: flex-end;
+  padding: 0 0 0 5px;
+}
 .mainContent,
 .row {
   max-width: 1200px;
@@ -82,4 +85,21 @@ main {
 }
 .straplineImg > img {
   width: 100%;
+}
+.logo {
+  padding: 5px 0px;
+  flex-basis: 85%;
+  position: relative;
+}
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.loginLinks {
+  flex-basis: 15%;
+}
+.search {
+  padding: 5px 0;
+  flex-basis: 40%;
 }
